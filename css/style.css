@@ -790,7 +790,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   background: url(../img/video-bg.jpg) center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  height: fit-content;
   overflow: hidden;
 }
 
@@ -1190,6 +1190,34 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #blog .block-blog .content-blog a.readmore:hover {
   color: #ff871d;
 }
+
+
+
+/* Nuestras Fortalezas
+--------------------------------*/
+.masde{
+  border-radius: 50%;
+  border: solid 1px #ff871d;
+  background-color: rgba(232, 232, 232, 0.25);
+  text-align: center;
+  width: 7em;
+  height: 7em;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.masde h3{
+  color: #ff871d;
+  padding-top: 1em;
+  padding-right: .2em;
+  font-size: 1.8em;
+}
+
+.masde p{
+  color: #fff;
+  line-height: 0px;
+}
+
 
 /* Newsletter Section
 --------------------------------*/
