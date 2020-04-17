@@ -193,17 +193,10 @@ span {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 40px);
-  background: url(../img/hero-bg.png) center bottom no-repeat;
+  height: 115vh;
+  background-color: #fffcfa;
   background-size: cover;
   position: relative;
-  margin-top: 40px;
-}
-
-@media (min-width: 1025px) {
-  #hero {
-    background-attachment: fixed;
-  }
 }
 
 #hero .hero-container {
@@ -229,10 +222,6 @@ span {
   text-shadow: 2px 2px 5px #988b8a;
 }
 
-#hero h2{
-  text-shadow: 2px 2px 5px #755247;
-}
-
 #hero button{
   background-color: #FF871d;
   border: none;
@@ -256,7 +245,7 @@ span {
 }
 
 #hero h2 {
-  color: #FFF;
+  color: #757575;
   margin-bottom: 10px;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
@@ -318,46 +307,38 @@ span {
   color: #ff871d;
 }
 
-
 .box-hero{
-  width: 50%;
+  width: 40%;
 }
 
-.list-hero{
-  padding-left: 12.5vw;
-}
+@media (max-width: 1280px) {
+  #hero {
+    height: 125vh;
+    margin-top: 2em;
+  }
 
-.list-hero li{
-  text-align: left;
-  color: #FFF;
-  font-size: 18px;
-  text-shadow: 1px 2px 5px #695857;
-
-}
-
-.list-hero li  i{
-  text-shadow: 1px 2px 1px #FF871d;
-  font-size: 25px;
-}
-
-@media (max-width: 1366px){
-  .list-hero{
-    padding-left: 7.5vw;
+  .box-hero{
+    width: 70%;
   }
 }
 
-@media (max-width: 768px){
-  .list-hero{
-    padding-left: 0;
+@media (max-width: 1024px) {
+  #hero {
+    height: 100vh;
   }
 
-  .list-hero li{
-    font-size: .8em;
-    line-height: 24px;
+  .box-hero{
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    height: 80vh;
   }
 
-  .list-hero li i{
-    font-size: 1.4em;
+  .box-hero{
+    width: 100%;
   }
 }
 
@@ -601,7 +582,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 # Sections
 --------------------------------------------------------------*/
 .padd-section {
-  padding-top: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 @media (max-width: 992px) {
@@ -696,7 +678,19 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #about-us .about-content {
-  padding-top: 60px;
+  padding-top: 30%;
+}
+
+@media (max-width: 991px) {
+  #about-us img.paymentil {
+    max-width: 50%;
+    margin-left: 25%;
+  }
+
+  #about-us .about-content {
+    padding-top: 30px;
+    text-align: center;
+  }
 }
 
 #about-us .about-content h2 {
@@ -795,9 +789,23 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #video .overlay {
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(197, 118, 49, 0.85);
   height: 100%;
 }
+
+div.degreed{
+  background: rgba(254,182,69,1);
+  background: -moz-linear-gradient(top, rgba(254,182,69,1) 0%, rgba(255,255,255,1) 73%, rgba(255,255,255,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,182,69,1)), color-stop(73%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+  background: -webkit-linear-gradient(top, rgba(254,182,69,1) 0%, rgba(255,255,255,1) 73%, rgba(255,255,255,1) 100%);
+  background: -o-linear-gradient(top, rgba(254,182,69,1) 0%, rgba(255,255,255,1) 73%, rgba(255,255,255,1) 100%);
+  background: -ms-linear-gradient(top, rgba(254,182,69,1) 0%, rgba(255,255,255,1) 73%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, #ab6628 0%, rgba(255,255,255,1) 73%, rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb645', endColorstr='#ffffff', GradientType=0 );
+  height: 3px;
+}
+
+
 
 #video .overlay .play-btn {
   width: 94px;
@@ -1147,7 +1155,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #blog .block-blog .content-blog {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
   display: inline-block;
-  min-height: 125px;
+  min-height: 170px;
   padding: 20px 10px;
   width: 100%;
 }
@@ -1197,8 +1205,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 --------------------------------*/
 .masde{
   border-radius: 50%;
-  border: solid 1px #ff871d;
-  background-color: rgba(232, 232, 232, 0.25);
+  border: solid 1px #69380b;
+  background-color: rgba(232, 232, 232, 0.35);
   text-align: center;
   width: 7em;
   height: 7em;
@@ -1207,14 +1215,14 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 .masde h3{
-  color: #ff871d;
+  color: #FFF;
   padding-top: 1em;
   padding-right: .2em;
   font-size: 1.8em;
 }
 
 .masde p{
-  color: #fff;
+  color: #231f20;
   line-height: 0px;
 }
 
