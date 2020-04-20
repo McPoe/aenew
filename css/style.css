@@ -188,15 +188,133 @@ span {
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
 }
 
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 115vh;
+  height: calc(100vh - 40px);
+  background: url(../img/hero-bg.png) center bottom no-repeat;
+  background-size: 100%;
+  position: relative;
+  margin-top: 40px;
+}
+
+@media (min-width: 1025px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+#hero .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  font-family: "Philosopher", sans-serif;
+  color: #ff871d;
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#hero h2 {
+  color: #777;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+#hero img {
+  max-width: 95%;
+  margin-bottom: 30px;
+}
+
+#hero .btn-get-started {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1em;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 1em 4em;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-bottom: 30px;
+  border: 2px solid #ff871d;
+  background: #fff;
+  color: #ff871d;
+  text-decoration: none;
+}
+
+#hero .btn-get-started:hover {
+  background: #ff871d;
+  color: #fff;
+}
+
+#hero .btns a {
+  color: #555;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 4px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+@media (max-width: 575px) {
+  #hero .btns a {
+    margin: 4px 8px;
+  }
+}
+
+#hero .btns a:hover {
+  color: #ff871d;
+}
+
+/*--------------------------------------------------------------
+
+#hero {
+  height: 100vh;
   background-color: #fffcfa;
   background-size: cover;
   position: relative;
+}
+
+#hero {
+  width: 100%;
+  height: calc(100vh - 40px);
+  background: url(../img/hero-bg.png) center bottom no-repeat;
+  background-size: 100%;
+  position: relative;
+  margin-top: 40px;
 }
 
 #hero .hero-container {
@@ -254,7 +372,7 @@ span {
 
 @media (max-width: 768px) {
   #hero h2 {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 24px;
     margin-bottom: 30px;
   }
@@ -308,28 +426,19 @@ span {
 }
 
 .box-hero{
-  width: 40%;
+  width: 115vh;
 }
 
-@media (max-width: 1280px) {
-  #hero {
-    height: 125vh;
-    margin-top: 2em;
-  }
 
-  .box-hero{
-    width: 70%;
-  }
-}
-
-@media (max-width: 1024px) {
+@media (max-width: 991px) {
   #hero {
     height: 100vh;
   }
 
   .box-hero{
-    width: 70%;
+    width: 100%;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -789,7 +898,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #video .overlay {
-  background: rgba(197, 118, 49, 0.85);
+  background: rgba(255, 255, 255, 0.7);
   height: 100%;
 }
 
@@ -1202,28 +1311,31 @@ div.degreed{
 
 
 /* Nuestras Fortalezas
+rgba(238, 248, 236, .2);
 --------------------------------*/
 .masde{
   border-radius: 50%;
-  border: solid 1px #69380b;
-  background-color: rgba(232, 232, 232, 0.35);
+  border: solid 1px #a9e07e;
+  background-color: rgba(238, 248, 236, .2);
   text-align: center;
-  width: 7em;
-  height: 7em;
+  width: 8.5em;
+  height: 8.5em;
   padding: 5px;
   margin: 0 auto;
 }
 
 .masde h3{
   color: #FFF;
-  padding-top: 1em;
+  text-shadow: 0px 1px 2px #757575;
+  padding-top: 1.1em;
   padding-right: .2em;
-  font-size: 1.8em;
+  font-size: 2em;
 }
 
 .masde p{
-  color: #231f20;
-  line-height: 0px;
+  color: #FF871D;
+  font-size: 1.1em;
+  line-height: 10px;
 }
 
 
