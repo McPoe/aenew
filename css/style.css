@@ -1569,4 +1569,129 @@ rgba(238, 248, 236, .2);
   line-height: 20px;
 }
 
+a.disable{
+  pointer-events: none;
+}
+
+#avisopriv,
+#acerca_dnis{
+  margin-top: 5%;
+}
+
+@media (max-width: 991px) {
+  #avisopriv,
+  #acerca_dnis{
+    margin-top: 18%;
+  }
+
+}
+
+a.privacidad:hover{
+  color: #757575;
+}
+
+.txtpriv *{
+  text-align: justify !important;
+  line-height: 20px;
+}
+
+.txtpriv h5{
+  color: #ff871d;
+}
+
+.txtpriv p{
+  color: #231f20;
+  font-size: .8em !important;
+}
+
+.txtpriv p > b{
+  color: #231f20;
+}
+
+.listpriv{
+  font-size: 1.2em;
+}
+
+#webdnis {
+  width: 100%;
+  height: calc(60vh - 40px);
+  background-size: 100%;
+  position: relative;
+}
+
+@media (min-width: 1025px) {
+  #webdnis {
+    background-attachment: fixed;
+  }
+}
+
+#webdnis .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#webdnis h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  font-family: "Philosopher", sans-serif;
+  color: #ff871d;
+}
+
+@media (max-width: 768px) {
+  #webdnis h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#webdnis h2 {
+  color: #777;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  #webdnis h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+img.imgdnis {
+  height: 10em;
+}
+
+
+#webdnis .btns a {
+  color: #555;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 4px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+@media (max-width: 575px) {
+  #webdnis .btns a {
+    margin: 4px 8px;
+  }
+}
+
+#webdnis .btns a:hover {
+  color: #ff871d;
+}
 
