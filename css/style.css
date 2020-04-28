@@ -900,31 +900,81 @@ body.mobile-nav-active #mobile-nav-toggle i {
   padding-right: 20px;
 }
 
-/* Features Section
+/* Join AE Section
 --------------------------------*/
-#features {
+#joinae img {
+  max-width: 100%;
+  margin-top: 2em;
+}
+
+@media (max-width: 991px) {
+  #joinae img {
+  max-width: 100%;
+  margin-top: 0;
+}
+
+
+  #joinae img.paymentil {
+    max-width: 75%;
+    margin-left: 14%;
+  }
+
+}
+
+#joinae .joinae-content h2 {
+  color: #252525;
+  font-family: "roboto";
+  font-size: 39px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+#joinae .joinae-content ul li {
+  line-height: 18px;
+  text-transform: none !important;
+}
+
+#joinae .joinae-content ul li .fa {
+  color: #ff871d;
+  font-size: 1.8em;
+}
+
+#acerca_dnis p {
+  color: #505050;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+/* Steps Section
+--------------------------------*/
+#steps {
   display: inline-block;
   height: 100%;
   width: 100%;
 }
 
-#features .feature-block {
+#steps .step-block {
   background: #fff none repeat scroll 0 0;
   padding: 30px 20px;
   margin-bottom: 30px;
   transition: all 0.5s ease-in-out 0s;
 }
 
-#features .feature-block:hover {
+#steps .step-block:hover {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease-in-out 0s;
 }
 
-#features .feature-block h4 {
+#steps .step-block h4 {
   margin-bottom: 20px;
 }
 
-#features .feature-block p {
+#steps .step-block p {
   margin-bottom: 0;
 }
 
@@ -1316,10 +1366,13 @@ div.degreed{
   color: #fff;
   margin: 0;
   display: inline-block;
+  font-size: 14px;
 }
 
 #pricing .block-pricing .table .table_btn a:hover {
-  background: #55b03f;
+  background: #FFF;
+  border: 1px solid #FF871d;
+  color: #FF871d;
 }
 
 #pricing .block-pricing .table .table_btn a .fa {
@@ -1384,6 +1437,54 @@ div.degreed{
 
 #blog .block-blog .content-blog a.readmore:hover {
   color: #ff871d;
+}
+
+
+/* Siniestro Section
+--------------------------------*/
+@media (max-width: 991px) {
+  #siniestro .block-siniestro {
+    margin-bottom: 0px;
+    padding: 0;
+  }
+}
+
+#siniestro .block-siniestro img {
+  width: 100%;
+}
+
+#siniestro .block-siniestro .content-siniestro {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+  min-height: 50px;
+  padding: 20px 10px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+#siniestro .block-siniestro .content-siniestro a h4{
+  color: #505050;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+#siniestro .block-siniestro .content-siniestro h4:hover {
+  color: #ff871d;
+}
+
+div.siniestro-steps li {
+  color: #505050;
+  font-size: 1.2em;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 2;
+  margin-bottom: 20px;
+  text-transform: none;
 }
 
 
@@ -1553,6 +1654,46 @@ rgba(238, 248, 236, .2);
 
   #contact .contactimg{
     display: none;
+  }
+}
+
+
+/* Contactae - Pricing Section
+--------------------------------*/
+#pricing .info {
+  color: #222;
+  text-align: left;
+  padding-left: 25%;
+}
+
+#pricing .info i {
+  font-size: 38px;
+  color: #ff871d;
+  float: left;
+  padding-top: 10px;
+  padding-right: 15px;
+}
+
+#pricing .info p {
+  padding: 10px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  #pricing .info {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  #pricing .info i {
+    float: none;
+  }
+
+    #pricing .info p {
+    padding-left: 0px;
   }
 }
 
