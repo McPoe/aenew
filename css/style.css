@@ -900,6 +900,27 @@ body.mobile-nav-active #mobile-nav-toggle i {
   padding-right: 20px;
 }
 
+#steps .steps-content ul li {
+  line-height: 22px;
+  text-align: left;
+}
+
+#steps .steps-content ul li .fa {
+  padding-right: 20px;
+}
+
+#steps ul.stepss>li{
+  padding-top: 20px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.steps-content p {
+  font-size: 1.2em;
+  text-transform: none;
+  padding-bottom: 0px;
+}
+
 /* Join AE Section
 --------------------------------*/
 #joinae img {
@@ -1487,6 +1508,26 @@ div.siniestro-steps li {
   text-transform: none;
 }
 
+#steps .info img {
+  width: 80px;
+  float: left !important;
+}
+
+#steps .info h4 {
+  padding: 0 0 10px 50px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+#steps div.info>div{
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+  padding: 20px 10px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
 
 
 /* Nuestras Fortalezas
@@ -1836,3 +1877,15 @@ img.imgdnis {
   color: #ff871d;
 }
 
+
+#steps .info img {
+  width: 80px;
+  float: left !important;
+}
+
+#steps .info h4 {
+  padding: 0 0 10px 50px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  font-size: 14px;
+}
