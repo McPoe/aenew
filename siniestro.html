@@ -97,75 +97,90 @@
                   <div class="container">
 
                     <div class="row justify-content-center">
-                      <div class="col-md-3 col-lg-3">
-                        <div class="info">
-                          
-                          <div>
-                            <img src="img/logos/ana.png" style="width: 50px;" class="img-responsive" alt="ANA">
-                            <a href="callto:">
-                              <h4 style="padding-top: 10%;">800 835 3262</h4>
-                            </a>
+                      <div class="col-md-4 col-lg-4">
+                        <div id="list_insurance">
+                          <h3 style="font-size: 1.2em; margin-bottom: 20px;">Localiza tu aseguradora:</h3>
+                          <div class="info">
+                            
+                            <div>
+                              <img src="img/logos/ana.png" style="width: 80px;" class="img-responsive" alt="ANA">
+                              <a href="callto:">
+                                <h4 style="padding-top: 10%;">800 835 3262</h4>
+                              </a>
+
+                            </div>
+
+                            <div>
+                              <img src="img/logos/aba.png" style="width: 80px;" class="img-responsive" alt="ABA">
+                              <a href="callto:">
+                                <h4 style="padding-top: 10%;">800 712 2828</h4>
+                              </a>
+
+                            </div>
+
+                            <div>
+                              <img src="img/logos/banorte.png" style="width: 80px;" class="img-responsive" alt="BANORTE">
+                              <a href="callto:">
+                                <h4 style="padding-top: 10%;">800 500 1500</h4>
+                              </a>
+
+                            </div>
+
+                            <div>
+                              <img src="img/logos/hdi.png" style="width: 80px;" class="img-responsive" alt="HDI">
+                              <a href="callto:">
+                                <h4 style="padding-top: 10%;">800 000 0434</h4>
+                              </a>
+
+                            </div>
+
+                            <div>
+                              <img src="img/logos/gnp.png" style="width: 80px;" class="img-responsive" alt="GNP">
+                              <a href="callto:">
+                                <h4 style="padding-top: 10%;">800 400 9000</h4>
+                              </a>
+
+                            </div>
+
+                            <div>
+                              <img src="img/logos/qualitas.png" style="width: 80px;" class="img-responsive" alt="QUALITAS">
+                              <a href="callto:">
+                                <h4 style="padding-top: 10%;">800 288 6700</h4>
+                              </a>
+
+                            </div>
+
+                            <div>
+                              <img src="img/logos/zurich.png" style="width: 80px;" class="img-responsive" alt="ZURICH">
+                              <a href="callto:">
+                                <h4 style="padding-top: 10%;">800 004 1900</h4>
+                              </a>
+
+                            </div>
 
                           </div>
-
-                          <div>
-                            <img src="img/logos/aba.png" style="width: 50px;" class="img-responsive" alt="ABA">
-                            <a href="callto:">
-                              <h4 style="padding-top: 10%;">800 712 2828</h4>
-                            </a>
-
-                          </div>
-
-                          <div>
-                            <img src="img/logos/banorte.png" style="width: 50px;" class="img-responsive" alt="BANORTE">
-                            <a href="callto:">
-                              <h4 style="padding-top: 10%;">800 500 1500</h4>
-                            </a>
-
-                          </div>
-
-                          <div>
-                            <img src="img/logos/hdi.png" style="width: 50px;" class="img-responsive" alt="HDI">
-                            <a href="callto:">
-                              <h4 style="padding-top: 10%;">800 000 0434</h4>
-                            </a>
-
-                          </div>
-
-                          <div>
-                            <img src="img/logos/gnp.png" style="width: 50px;" class="img-responsive" alt="GNP">
-                            <a href="callto:">
-                              <h4 style="padding-top: 10%;">800 400 9000</h4>
-                            </a>
-
-                          </div>
-
-                          <div>
-                            <img src="img/logos/qualitas.png" style="width: 50px;" class="img-responsive" alt="QUALITAS">
-                            <a href="callto:">
-                              <h4 style="padding-top: 10%;">800 288 6700</h4>
-                            </a>
-
-                          </div>
-
-                          <div>
-                            <img src="img/logos/zurich.png" style="width: 50px;" class="img-responsive" alt="ZURICH">
-                            <a href="callto:">
-                              <h4 style="padding-top: 10%;">800 004 1900</h4>
-                            </a>
-
-                          </div>
-
                         </div>
+
+                        <a onclick="aseguradoras();byeboton()">
+                          <div>
+                            <img src="img/keepcalm.png" style="width: 160px; margin-top: 20px;">
+                            <div id="btn_llama" class="table_btn">
+                              <a onclick="aseguradoras();byeboton()" class="btn">Llama a tu aseguradora</a>
+                            </div>
+                          </div>
+                        </a>
+                        
+
+
                       </div>
                       <div class="col-md-7 col-lg-7">
                         <div class="steps-content">
                           <ul class="stepss">
                             <li>
-                              <p>Mantener la calma.</p>
+                              <p style="font-size: 1.3em; font-weight: 400;">Mantener la calma.</p>
                             </li>
                             <li>
-                              <p style="text-align: left;">Llamar al <b style="text-decoration: underline;">800 que se encuentra en la carátula de la póliza de su vehículo</b>, le solicitarán los siguientes datos:</p>
+                              <p style="text-align: left;">Llamar al <a onclick="aseguradoras();byeboton()" style="font-weight: bold; text-decoration: underline; color: #ff871d; cursor: pointer;">800 que se encuentra en la carátula de la póliza de su vehículo</a>, le solicitarán los siguientes datos:</p>
                               <ul class="list-unstyled" style="padding-bottom: 20px;">
                                 <li><i class="fa fa-angle-right"></i>Número de póliza.</li>
                                 <li><i class="fa fa-angle-right"></i>Nombre del Asegurado o Conductor.</li>
@@ -173,6 +188,7 @@
                                 <li><i class="fa fa-angle-right"></i>Lugar donde ocurrió el accidente.</li>
                               </ul>
                             </li>
+
                             <li>
                               <p>NO abandonar el lugar del accidente.</p>
                             </li>
@@ -243,6 +259,27 @@
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
+
+<!--+++++++MODAL+++++-->
+<script type="text/javascript">
+  function aseguradoras() {
+    var x = document.getElementById("list_insurance");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
+  function byeboton() {
+    var x = document.getElementById("btn_llama");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>

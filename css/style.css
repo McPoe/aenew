@@ -1508,6 +1508,11 @@ div.siniestro-steps li {
   text-transform: none;
 }
 
+#steps .info{
+  height: 50em;
+  overflow: auto;
+}
+
 #steps .info img {
   width: 80px;
   float: left !important;
@@ -1520,15 +1525,39 @@ div.siniestro-steps li {
   font-size: 14px;
 }
 
-#steps div.info>div{
+#steps div.info {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
-  display: inline-block;
-  padding: 20px 10px;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 10px;
 }
 
+#steps div.info>div{
+  border-bottom: solid 1px #a9e07e;
+  display: inline-block;
+  padding: 20px;
+  width: 100%;
+  text-align: right;
+}
+
+#steps div.info>div:nth-child(odd) {
+  background: #F9F9FC;
+}
+
+#list_insurance{
+  display: none;
+}
+
+#steps .table_btn a {
+  background: #ff871d;
+  color: #fff;
+  margin: 0;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#steps .table_btn a:hover {
+  background: #FFF;
+  border: 1px solid #FF871d;
+  color: #FF871d;
+}
 
 /* Nuestras Fortalezas
 rgba(238, 248, 236, .2);
