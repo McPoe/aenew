@@ -190,6 +190,33 @@ span {
 
 
 /*--------------------------------------------------------------
+# TREE Section
+--------------------------------------------------------------*/
+#tree {
+  width: 100%;
+  height: calc(100vh - 40px);
+  background: url(../img/tree.png) center center no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+@media (min-width: 1025px) {
+  #tree {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 991px) {
+  #tree {
+    background: url(../img/tree.png) left bottom no-repeat;
+    background-size: 100%;
+    position: relative;
+  }
+}
+
+
+
+/*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
@@ -618,6 +645,7 @@ span {
 .nav-menu > li {
   margin-top: 10px;
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .nav-menu ul {
@@ -1918,3 +1946,211 @@ img.imgdnis {
   line-height: 22px;
   font-size: 14px;
 }
+
+.btn-intro{
+  display: inline-block;
+  background-color: #FDFDFD; 
+  width: 17em; 
+  height: 17em; 
+  border-radius: 50%; 
+  border: solid 1px #ff871d; 
+  box-shadow: #ff871d 0px 0px 10px;
+  margin-right: 20px;
+}
+
+.introbtn{
+   font-family: "Poppins", sans-serif;
+  color: #757575;
+  font-size: 1.1em;
+  text-align: center !important;
+}
+
+.btn-intro:hover{
+  background-color: #FFF; 
+  border: solid 1px #FFF; 
+  box-shadow: #ff871d 0px 0px 20px; 
+}
+
+@media (max-width: 768px) {
+  .btn-intro{
+  width: 13em; 
+  height: 13em; 
+  }
+
+  .introbtn{
+    font-size: .8em;
+  }
+}
+
+
+/* ESTILOS INTRO AGENTES */
+
+.logotype{
+    width: 100%;
+    display: fixed;
+    height: auto;
+    top: 0;
+    /*position: fixed;*/
+}
+
+.logocas{
+    height: auto;
+    width: 28vh;
+    padding-left: 1em;
+    padding-top: 10px;
+    padding-bottom: 1em;
+}
+
+.bluecint{
+    background-color: #ff871d;
+    width: 50%;
+    margin-top: -1em;
+}
+
+.bluecint > p{
+    padding: 5px;
+    color: #FFF;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.logoAgent {
+    height: auto;
+    width: 28vh;
+    padding-left: 1em;
+    padding-top: 10px;
+    padding-bottom: 1em;
+}
+
+.infoAgent{
+    position: relative;
+    right: 1em;
+    color: #ff871d;
+    text-align: center;
+    list-style: none;
+}
+
+img.icons{
+    max-width: 180px;
+}
+
+.icons:hover{
+    -webkit-filter: drop-shadow(5px 20px 10px #FF871D20)
+        drop-shadow(-5px -10px 10px #FF871D20);
+    filter: drop-shadow(5px 10px 10px #FF871D20)
+        drop-shadow(-5px -10px 10px #FF871D20);
+}
+
+.footdynamic{
+    width: 100%;
+    display: fixed;
+    height: auto;
+    bottom: 0;
+}
+
+.show-on-mobile{
+    display: none;
+    visibility: hidden;
+}
+
+.hide-on-mobile{
+    display: block;
+    visibility: visible;
+}
+
+@media (max-width: 1199px) {
+    .show-on-mobile{
+        display: block;
+        visibility: visible;
+    }    
+    .hide-on-mobile{
+        display: none;
+        visibility: hidden;
+    }
+
+    .bluecint{
+        width: 100%;
+        margin-top: 2em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logocas{
+        width: 20vh;
+        padding-left: 1em;
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+
+    img.icons{
+        max-width: 100px;
+    }
+
+    h1.textes{
+        font-size: 28px;
+    }
+
+    .iconos{
+        margin-top: 5vh;
+    }
+
+    .infoAgent {
+        font-size: 11px !important;
+    }
+
+    .infoAgent{
+        margin: 5px 0px;
+    }
+    
+}
+
+
+@media (max-width: 575px) {
+    .logoCASseguros{
+        width: 20vh !important;
+    }
+    .logoAE{
+        width: 15vh !important;
+    }
+
+}
+.logoCASseguros{
+    height: auto;
+    width: 28vh;
+    padding-left: 2em;
+    padding-top: 10px;
+}
+
+.logoAE{
+    height: auto;
+    width: 20vh;
+    position: absolute;
+    right: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
