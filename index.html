@@ -49,17 +49,39 @@
               <span class="introbtn">Quiero información para contratar un seguro</span>
             </button>
           </a>
-          <a href="intro.html">
-            <button class="btn-intro">
+          
+            <button class="btn-intro ">
+              <a class="login-trigger"  href="#" data-target="#login" data-toggle="modal">
               <span  class="introbtn">Soy un agente<br>de seguros</span>
+            </a>
             </button>
-          </a>
         </div>
 
       </div>
     </div>
 
     </div>
+
+    <div id="login" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button data-dismiss="modal" class="close">&times;</button>
+            <h4>Ingresar</h4>
+            <form>
+              <input type="text" name="usuario" class="username form-control" placeholder="Usuario"/>
+              <input type="password" name="contraseña" class="password form-control" placeholder="Contraseña"/>
+              <input class="btn login" type="submit" value="Login" />
+            </form>
+          </div>
+        </div>
+      </div>  
+    </div>
+
   </div>
+
+  <!--MODAL AGENTES-->
+
+  
 
 </body>

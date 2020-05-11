@@ -40,10 +40,10 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">Inicio</a></li>
-          <li><a href="#get-started">Productos</a></li>
-          <li><a href="#screenshots">Aseguradoras</a></li>
-          <li><a href="#blog">Pasos</a></li>
+          <li class="menu-active"><a href="#bienvenido">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#sect-aseguradoras">Aseguradoras</a></li>
+          <li><a href="#sect-pasos">Pasos</a></li>
 <!--
           <li><a href="#team">Team</a></li>
           <li><a href="#pricing">Pricing</a></li>-->
@@ -56,26 +56,46 @@
           </li>
           <li><a href="siniestro.html">En caso de Siniestro</a></li>
           <li><a href="#contact">Contacto</a></li>
-          <li><div style="background-color: #FF871d; border-radius: 25px; padding: 0 10px;"><a href="intro.html" style="color: #FFF;">Agentes</a></div></li>
+          <li><div style="background-color: #FF871d; border-radius: 25px; padding: 0 10px;"><a class="login-trigger" href="#" data-target="#login-modal" data-toggle="modal" style="color: #FFF;">Agentes</a></div></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
 
+
+<!--MODAL AGENTES-->
+
+  <div id="login-modal" class="modal fade show" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button data-dismiss="modal" class="close">×</button>
+          <h4>Ingresa a tu cuenta:</h4>
+          <form action="intro.html">
+            <input type="text" name="usuario" class="username form-control" placeholder="Usuario"/>
+            <input type="password" name="contraseña" class="password form-control" placeholder="Contraseña"/>
+            <input class="btn login" type="submit" value="Login">
+          </form>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+
 <!--==========================
-    Hero Section
+    bienvenido Section
   ============================-->
-  <section id="hero" class="wow fadeIn">
-    <div class="hero-container">
+  <section id="bienvenido" class="wow fadeIn">
+    <div class="bienvenido-container">
       <h1>AutoEvalua® Seguros</h1>
       <h2>Somos una plataforma de seguros "multi", dinámica y versátil</h2>
-      <img src="img/intro2.png" alt="Hero Imgs" style="width: 100vh;">
-      <a href="#get-started" class="btn-get-started scrollto">Cotizar</a>
+      <img src="img/intro2.png" alt="bienvenido Imgs" style="width: 100vh;">
+      <a href="#productos" class="btn-productos scrollto">Cotizar</a>
     </div>
-  </section><!-- #hero -->
+  </section><!-- #bienvenido -->
 
 <!-- 3 PASOS -->
-  <section id="blog" class="padd-section wow fadeInUp">
+  <section id="sect-pasos" class="padd-section wow fadeInUp">
 
     <div class="container">
       <div class="section-title text-center">
@@ -90,9 +110,9 @@
       <div class="row">
 
         <div class="col-sm-4 col-md-4 col-lg-4">
-          <div class="block-blog text-left">
+          <div class="block-sect-pasos text-left">
             <img src="img/step1.png" class="img-responsive" alt="img">
-            <div class="content-blog">
+            <div class="content-sect-pasos">
               <span class="steps">1.&nbsp;</span>
               <span>Selecciona el tipo de seguro que requieres para proteger tu patrimonio.</span>
             </div>
@@ -100,9 +120,9 @@
         </div>
 
         <div class="col-sm-4 col-md-4 col-lg-4">
-          <div class="block-blog text-left">
+          <div class="block-sect-pasos text-left">
             <img src="img/step2.png" class="img-responsive" alt="img">
-            <div class="content-blog">
+            <div class="content-sect-pasos">
               <span class="steps">2.&nbsp;</span>
               <span>Elige coberturas, límites y arma tu paquete.</span>
             </div>
@@ -110,9 +130,9 @@
         </div>
 
         <div class="col-sm-4 col-md-4 col-lg-4">
-          <div class="block-blog text-left">
+          <div class="block-sect-pasos text-left">
             <img src="img/step3.png" class="img-responsive" alt="img">
-            <div class="content-blog">
+            <div class="content-sect-pasos">
               <span class="steps">3.&nbsp;</span>
               <span>Selecciona tu forma de pago y obtén tu póliza.</span>
             </div>
@@ -136,9 +156,9 @@
 
 
   <!--==========================
-    Get Started Section
+    PRODUCTOS Section
   ============================-->
-  <section id="get-started" class="padd-section text-center wow fadeInUp" style="padding-bottom: 50px;">
+  <section id="productos" class="padd-section text-center wow fadeInUp" style="padding-bottom: 50px;">
 
     <div class="container">
       <div class="section-title text-center">
@@ -372,7 +392,7 @@
     </div>
   </section>
 
-<section id="screenshots" class="padd-section text-center wow fadeInUp" style="padding-top: 80px; padding-bottom: 80px;">
+<section id="sect-aseguradoras" class="padd-section text-center wow fadeInUp" style="padding-top: 80px; padding-bottom: 80px;">
 
     <div class="container">
       <div class="section-title text-center">

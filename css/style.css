@@ -47,7 +47,7 @@ li {
   font-weight: 400;
   letter-spacing: 2px;
   line-height: 30px;
-  text-transform: capitalize;
+  text-transform: normal;
 }
 
 p {
@@ -217,24 +217,24 @@ span {
 
 
 /*--------------------------------------------------------------
-# Hero Section
+# bienvenido Section
 --------------------------------------------------------------*/
-#hero {
+#bienvenido {
   width: 100%;
   height: calc(100vh - 40px);
-  background: url(../img/hero-bg.png) center bottom no-repeat;
+  background: url(../img/bienvenido-bg.png) center bottom no-repeat;
   background-size: 100%;
   position: relative;
   margin-top: 40px;
 }
 
 @media (min-width: 1025px) {
-  #hero {
+  #bienvenido {
     background-attachment: fixed;
   }
 }
 
-#hero .hero-container {
+#bienvenido .bienvenido-container {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -247,7 +247,7 @@ span {
   text-align: center;
 }
 
-#hero h1 {
+#bienvenido h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -257,13 +257,13 @@ span {
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #bienvenido h1 {
     font-size: 28px;
     line-height: 36px;
   }
 }
 
-#hero h2 {
+#bienvenido h2 {
   color: #777;
   margin-bottom: 30px;
   font-size: 20px;
@@ -272,19 +272,19 @@ span {
 }
 
 @media (max-width: 768px) {
-  #hero h2 {
+  #bienvenido h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
 }
 
-#hero img {
+#bienvenido img {
   max-width: 95%;
   margin-bottom: 30px;
 }
 
-#hero .btn-get-started {
+#bienvenido .btn-productos {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
@@ -301,12 +301,12 @@ span {
   text-decoration: none;
 }
 
-#hero .btn-get-started:hover {
+#bienvenido .btn-productos:hover {
   background: #ff871d;
   color: #fff;
 }
 
-#hero .btns a {
+#bienvenido .btns a {
   color: #555;
   font-size: 11px;
   font-weight: 600;
@@ -317,12 +317,12 @@ span {
 }
 
 @media (max-width: 575px) {
-  #hero .btns a {
+  #bienvenido .btns a {
     margin: 4px 8px;
   }
 }
 
-#hero .btns a:hover {
+#bienvenido .btns a:hover {
   color: #ff871d;
 }
 
@@ -402,23 +402,23 @@ span {
 
 /*--------------------------------------------------------------
 
-#hero {
+#bienvenido {
   height: 100vh;
   background-color: #fffcfa;
   background-size: cover;
   position: relative;
 }
 
-#hero {
+#bienvenido {
   width: 100%;
   height: calc(100vh - 40px);
-  background: url(../img/hero-bg.png) center bottom no-repeat;
+  background: url(../img/bienvenido-bg.png) center bottom no-repeat;
   background-size: 100%;
   position: relative;
   margin-top: 40px;
 }
 
-#hero .hero-container {
+#bienvenido .bienvenido-container {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -431,7 +431,7 @@ span {
   text-align: center;
 }
 
-#hero h1 {
+#bienvenido h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 500;
@@ -441,7 +441,7 @@ span {
   text-shadow: 2px 2px 5px #988b8a;
 }
 
-#hero button{
+#bienvenido button{
   background-color: #FF871d;
   border: none;
   color: #FFF;
@@ -449,7 +449,7 @@ span {
   padding: 1em 4em;
 }
 
-#hero button:hover{
+#bienvenido button:hover{
   background-color: #FFF;
   color: #FF871d;
   font-size: 1em;
@@ -457,13 +457,13 @@ span {
 
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #bienvenido h1 {
     font-size: 28px;
     line-height: 36px;
   }
 }
 
-#hero h2 {
+#bienvenido h2 {
   color: #757575;
   margin-bottom: 10px;
   font-size: 30px;
@@ -472,19 +472,19 @@ span {
 }
 
 @media (max-width: 768px) {
-  #hero h2 {
+  #bienvenido h2 {
     font-size: 24px;
     line-height: 24px;
     margin-bottom: 30px;
   }
 }
 
-#hero img {
+#bienvenido img {
   max-width: 95%;
   margin-bottom: 30px;
 }
 
-#hero .btn-get-started {
+#bienvenido .btn-productos {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
@@ -501,12 +501,12 @@ span {
   text-decoration: none;
 }
 
-#hero .btn-get-started:hover {
+#bienvenido .btn-productos:hover {
   background: #ff871d;
   color: #fff;
 }
 
-#hero .btns a {
+#bienvenido .btns a {
   color: #555;
   font-size: 11px;
   font-weight: 600;
@@ -517,37 +517,37 @@ span {
 }
 
 @media (max-width: 575px) {
-  #hero .btns a {
+  #bienvenido .btns a {
     margin: 4px 8px;
   }
 }
 
-#hero .btns a:hover {
+#bienvenido .btns a:hover {
   color: #ff871d;
 }
 
-.box-hero{
+.box-bienvenido{
   width: 115vh;
 }
 
 
 @media (max-width: 991px) {
-  #hero {
+  #bienvenido {
     height: 100vh;
   }
 
-  .box-hero{
+  .box-bienvenido{
     width: 100%;
   }
 
 }
 
 @media (max-width: 768px) {
-  #hero {
+  #bienvenido {
     height: 80vh;
   }
 
-  .box-hero{
+  .box-bienvenido{
     width: 100%;
   }
 }
@@ -820,7 +820,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-weight: 100;
   letter-spacing: 2px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  text-transform: normal;
 }
 
 .section-title .separator {
@@ -833,52 +833,52 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-size: 15px;
   font-weight: 300;
   margin-bottom: 30px;
-  text-transform: capitalize;
+  text-transform: normal;
 }
 
 /* Get Started Section
 --------------------------------*/
-#get-started {
+#productos {
   display: inline-block;
   height: 100%;
   width: 100%;
 }
 
-#get-started .feature-block {
+#productos .feature-block {
   background: #fff none repeat scroll 0 0;
   padding: 10px;
   transition: all 0.5s ease-in-out 0s;
 }
 
 @media (max-width: 991px) {
-  #get-started .feature-block {
+  #productos .feature-block {
     margin-bottom: 0px;
   }
 }
 
-#get-started .feature-block:hover {
+#productos .feature-block:hover {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease-in-out 0s;
 }
 
-#get-started .feature-block h4 {
+#productos .feature-block h4 {
   margin-bottom: 20px;
 }
 
-#get-started .feature-block p {
+#productos .feature-block p {
   margin-bottom: 20px;
 }
 
-#get-started .feature-block a {
+#productos .feature-block a {
   color: #505050;
   font-size: 12px;
   font-weight: 600;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: normal;
   transition: 0.3s;
 }
 
-#get-started .feature-block a:hover {
+#productos .feature-block a:hover {
   color: #ff871d;
 }
 
@@ -911,7 +911,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-weight: 100;
   letter-spacing: 2px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  text-transform: normal;
 }
 
 #about-us .about-content span {
@@ -977,7 +977,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-weight: 100;
   letter-spacing: 2px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  text-transform: normal;
 }
 
 #joinae .joinae-content ul li {
@@ -1027,7 +1027,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   margin-bottom: 0;
 }
 
-/* Screenshots Section
+/* sect-aseguradoras Section
 --------------------------------*/
 .owl-dot.active > span {
   height: 10px !important;
@@ -1311,7 +1311,7 @@ div.degreed{
   font-weight: 100;
   letter-spacing: 2px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  text-transform: normal;
 }
 
 #testimonials .top-top > h4 {
@@ -1429,19 +1429,19 @@ div.degreed{
   margin-right: 5px;
 }
 
-/* Blog Section
+/* sect-pasos Section
 --------------------------------*/
 @media (max-width: 991px) {
-  #blog .block-blog {
+  #sect-pasos .block-sect-pasos {
     margin-bottom: 30px;
   }
 }
 
-#blog .block-blog img {
+#sect-pasos .block-sect-pasos img {
   width: 100%;
 }
 
-#blog .block-blog .content-blog {
+#sect-pasos .block-sect-pasos .content-sect-pasos {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
   display: inline-block;
   min-height: 170px;
@@ -1449,18 +1449,18 @@ div.degreed{
   width: 100%;
 }
 
-#blog .block-blog .content-blog > span {
+#sect-pasos .block-sect-pasos .content-sect-pasos > span {
   color: #757575;
   font-size: 16px;
   float: left;
 }
 
-#blog .block-blog .content-blog > span.steps{
+#sect-pasos .block-sect-pasos .content-sect-pasos > span.steps{
   color: #ff871d;
   font-size: 24px ;
 }
 
-#blog button{
+#sect-pasos button{
   background-color: #FF871d;
   border: none;
   color: #FFF;
@@ -1468,23 +1468,23 @@ div.degreed{
   padding: 1em 4em;
 }
 
-#blog button:hover{
+#sect-pasos button:hover{
   background-color: #FFF;
   color: #FF871d;
   font-size: 1em;
 }
 
-#blog .block-blog .content-blog a.readmore {
+#sect-pasos .block-sect-pasos .content-sect-pasos a.readmore {
   color: #505050;
   font-size: 12px;
   font-weight: 600;
   text-decoration: none;
   transition: 0.3s;
   letter-spacing: 0;
-  text-transform: capitalize;
+  text-transform: normal;
 }
 
-#blog .block-blog .content-blog a.readmore:hover {
+#sect-pasos .block-sect-pasos .content-sect-pasos a.readmore:hover {
   color: #ff871d;
 }
 
@@ -1864,7 +1864,7 @@ a.privacidad:hover{
   }
 }
 
-#webdnis .hero-container {
+#webdnis .bienvenido-container {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -2129,9 +2129,57 @@ img.icons{
     right: 2em;
 }
 
-
-
-
+/*Modal*/
+h4 {
+  font-weight: bold;
+  color: #FF871D;
+}
+.close {
+  color: #FF871D;
+  transform: scale(1.2)
+}
+.modal-content {
+  font-weight: normal;
+  background-color: #FEFEFE;
+}
+.form-control {
+  margin: 1em 0;
+}
+.form-control:hover, .form-control:focus {
+  box-shadow: none;  
+  border-color: #FF871D;
+}
+.username, .password {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 2px solid #D5D5D5;
+  padding-left: 0;
+  font-weight: normal;
+  background: transparent;  
+}
+.form-control::-webkit-input-placeholder {
+  color: #FF871D;  
+}
+.form-control:focus::-webkit-input-placeholder {
+  font-weight: normal;
+  color: #757575;
+}
+.login {
+  padding: 10px 25px;
+  border-radius: 20px;
+  background: none;
+  border: 2px solid #ff871d;
+  color: #757575;
+  font-weight: bold;
+  transition: all .5s;
+  margin-top: 1em;
+}
+.login:hover {
+  background: #FFF;
+  color: #ff871d;
+  border: 2px solid #757575;
+}
 
 
 
