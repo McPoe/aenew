@@ -31,22 +31,19 @@
 
 <body>
 
-<header id="header" class="header header-hide">
+    <header id="header" class="header header-hide">
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="index.html"><img src="https://www.autoevalua.com/images/logoAutoEvalua.png" alt="" title="" style="width: 23vh; margin-bottom: 1em;" /></a>
+        <a href="bienvenido.html"><img src="https://www.autoevalua.com/images/logoAutoEvalua.png" alt="" title="" style="width: 23vh; margin-bottom: 1em;" /></a>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="index.html#hero">Inicio</a></li>
-          <li><a href="index.html#get-started">Productos</a></li>
-          <li><a href="index.html#screenshots">Aseguradoras</a></li>
-          <li><a href="index.html#blog">Pasos</a></li>
-<!--
-          <li><a href="#team">Team</a></li>
-          <li><a href="#pricing">Pricing</a></li>-->
+          <li class="menu-active"><a href="#bienvenido">Inicio</a></li>
+          <li><a href="bienvenido.html#productos">Productos</a></li>
+          <li><a href="bienvenido.html#sect-aseguradoras">Aseguradoras</a></li>
+          <li><a href="bienvenido.html#sect-pasos">Pasos</a></li>
           <li class="menu-has-children"><a href="/" class="disable">Nosotros</a>
             <ul>
               <li><a href="acerca_dnis.html">Acerca de Dynamic Network®</a></li>
@@ -55,15 +52,35 @@
             </ul>
           </li>
           <li><a href="siniestro.html">En caso de Siniestro</a></li>
-          <li><a href="index.html#contact">Contacto</a></li>
-          <li><div style="background-color: #FF871d; border-radius: 30px; padding: 0 10px;"><a href="modal" style="color: #FFF;">Agentes</a></div></li>
+          <li><a href="bienvenido.html#contact">Contacto</a></li>
+          <li><div style="background-color: #FF871d; border-radius: 25px; padding: 0 10px;"><a class="login-trigger" href="#" data-target="#login-modal" data-toggle="modal" style="color: #FFF;">Agentes</a></div></li>
         </ul>
       </nav><!-- #nav-menu-container -->
-    </div>
+    </div><!--.container-->
   </header><!-- #header -->
 
+
+<!--MODAL AGENTES-->
+
+  <div id="login-modal" class="modal fade show" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button data-dismiss="modal" class="close">×</button>
+          <h4>Ingresa a tu cuenta:</h4>
+          <form action="intro.html">
+            <input type="text" name="usuario" class="username form-control" placeholder="Usuario"/>
+            <input type="password" name="contraseña" class="password form-control" placeholder="Contraseña"/>
+            <input class="btn login" type="submit" value="Login">
+          </form>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+
   <!--==========================
-    Hero Section
+    bienvenido Section
   ============================-->
    <section id="acerca_dnis" class="wow fadeIn" style="padding-bottom: 0px;">
     	<div class="container">
@@ -93,84 +110,84 @@
                     <div class="col-sm-6 col-md-6 col-lg-3">
                       <div class="feature-block">
                         <img src="img/icons/dnis_vehn.png" alt="img" class="imgdnis">
-                        <p>Seguro de Auto y Pickup Residente, Fronterizo, Legalizado y Turista.</p>
+                        <p class="txtcobs">Seguro de Auto y Pickup Residente, Fronterizo, Legalizado y Turista.</p>
                       </div>
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-3">
                       <div class="feature-block">
                         <img src="img/icons/dnis_motog.png" alt="img" class="imgdnis">
-                        <p>Seguro de Motocicletas de Reparto o Uso Particular.</p>
+                        <p class="txtcobs">Seguro de Motocicletas de Reparto o Uso Particular.</p>
                       </div>
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-3">
                       <div class="feature-block">
                         <img src="img/icons/dnis_taxin.png" alt="img" class="imgdnis">
-                        <p>Servicio Público (TAXI) Servicio Privado (Uber/Didi/Cabify).</p>
+                        <p class="txtcobs">Servicio Público (TAXI) Servicio Privado (Uber/Didi/Cabify).</p>
                       </div>
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-3">
                       <div class="feature-block">
                         <img src="img/icons/dnis_truckg.png" alt="img" class="imgdnis">
-                        <p>Seguro de Tractocamiones, Equipo Pesado y Autobuses.</p>
+                        <p class="txtcobs">Seguro de Tractocamiones, Equipo Pesado y Autobuses.</p>
                       </div>
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-3">
                       <div class="feature-block">
                         <img src="img/icons/dnis_casag.png" alt="img" class="imgdnis">
-                        <p>Seguro de Hogar: Contenidos y Edificio.</p>
+                        <p class="txtcobs">Seguro de Hogar: Contenidos y Edificio.</p>
                       </div>
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-3">
                       <div class="feature-block">
                         <img src="img/icons/dnis_gmmn.png" alt="img" class="imgdnis">
-                        <p>Seguro de Gastos Médicos Mayores.</p>
+                        <p class="txtcobs">Seguro de Gastos Médicos Mayores.</p>
                       </div>
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-3">
                       <div class="feature-block">
                         <img src="img/icons/dnis_vidag.png" alt="img" class="imgdnis">
-                        <p>Seguro de Vida y Accidentes Personales.</p>
+                        <p class="txtcobs">Seguro de Vida y Accidentes Personales.</p>
                       </div>
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-3">
                       <div class="feature-block">
                         <img src="img/icons/dnis_emprn.png" alt="img" class="imgdnis">
-                        <p>Seguros Empresariales y de Daños.</p>
+                        <p class="txtcobs">Seguros Empresariales y de Daños.</p>
                       </div>
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-3">
                       <div class="feature-block">
                         <img src="img/icons/dnis_petn.png" alt="img" class="imgdnis">
-                        <p>Seguro de Mascotas.</p>
+                        <p class="txtcobs">Seguro de Mascotas.</p>
                       </div>
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-3">
                       <div class="feature-block">
                         <img src="img/icons/dnis_fnzag.png" alt="img" class="imgdnis">
-                        <p>Seguro de Cauciones.</p>
+                        <p class="txtcobs">Seguro de Cauciones.</p>
                       </div>
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-3">
                       <div class="feature-block">
                         <img src="img/icons/dnis_merchn.png" alt="img" class="imgdnis">
-                        <p>Seguros para Transporte de Mercancías.</p>
+                        <p class="txtcobs">Seguros para Transporte de Mercancías.</p>
                       </div>
                     </div>
 
                     <div class="col-sm-6 col-md-6 col-lg-3">
                       <div class="feature-block">
                         <img src="img/icons/dnis_drong.png" alt="img" class="imgdnis">
-                        <p>Seguro de RC Aviones - Drones.</p>
+                        <p class="txtcobs">Seguro de RC Aviones - Drones.</p>
                       </div>
                     </div>
 
@@ -181,7 +198,7 @@
               <h5 style="font-size: 1.5em; color: #757575; font-variant-caps: all-small-caps; text-align: center; margin-top: 40px; margin-bottom: -40px;">Visita Nuestro Sitio Web:</h5>
                   
               <section id="webdnis" class="wow fadeIn">
-                <div class="hero-container">
+                <div class="bienvenido-container">
                   <a href="https://www.dynamicnetwork.net" target="_blank">
                     <img src="img/godnis.png" style="width: 80vh;">
                   </a>
@@ -194,7 +211,7 @@
 			</div>
 		</div>
     	</div>
-   </section><!-- #hero -->
+   </section><!-- #bienvenido -->
 
 	<footer>
 		<div class="footer">

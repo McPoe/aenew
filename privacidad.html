@@ -31,22 +31,19 @@
 
 <body>
 
-  <header id="header" class="header header-hide">
+    <header id="header" class="header header-hide">
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="index.html"><img src="https://www.autoevalua.com/images/logoAutoEvalua.png" alt="" title="" style="width: 23vh; margin-bottom: 1em;" /></a>
+        <a href="bienvenido.html"><img src="https://www.autoevalua.com/images/logoAutoEvalua.png" alt="" title="" style="width: 23vh; margin-bottom: 1em;" /></a>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#">Inicio</a></li>
-          <li><a href="#get-started">Productos</a></li>
-          <li><a href="#screenshots">Aseguradoras</a></li>
-          <li><a href="#blog">Pasos</a></li>
-<!--
-          <li><a href="#team">Team</a></li>
-          <li><a href="#pricing">Pricing</a></li>-->
+          <li class="menu-active"><a href="#bienvenido">Inicio</a></li>
+          <li><a href="bienvenido.html#productos">Productos</a></li>
+          <li><a href="bienvenido.html#sect-aseguradoras">Aseguradoras</a></li>
+          <li><a href="bienvenido.html#sect-pasos">Pasos</a></li>
           <li class="menu-has-children"><a href="/" class="disable">Nosotros</a>
             <ul>
               <li><a href="acerca_dnis.html">Acerca de Dynamic Network®</a></li>
@@ -55,15 +52,35 @@
             </ul>
           </li>
           <li><a href="siniestro.html">En caso de Siniestro</a></li>
-          <li><a href="#contact">Contacto</a></li>
-          <li><div style="background-color: #FF871d; border-radius: 30px; padding: 0 10px;"><a href="modal" style="color: #FFF;">Agentes</a></div></li>
+          <li><a href="bienvenido.html#contact">Contacto</a></li>
+          <li><div style="background-color: #FF871d; border-radius: 25px; padding: 0 10px;"><a class="login-trigger" href="#" data-target="#login-modal" data-toggle="modal" style="color: #FFF;">Agentes</a></div></li>
         </ul>
       </nav><!-- #nav-menu-container -->
-    </div>
+    </div><!--.container-->
   </header><!-- #header -->
 
+
+<!--MODAL AGENTES-->
+
+  <div id="login-modal" class="modal fade show" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button data-dismiss="modal" class="close">×</button>
+          <h4>Ingresa a tu cuenta:</h4>
+          <form action="intro.html">
+            <input type="text" name="usuario" class="username form-control" placeholder="Usuario"/>
+            <input type="password" name="contraseña" class="password form-control" placeholder="Contraseña"/>
+            <input class="btn login" type="submit" value="Login">
+          </form>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+
   <!--==========================
-    Hero Section
+  PÁGINA DE AVISO DE PRIVACIDAD
   ============================-->
    <section id="avisopriv" class="wow fadeIn">
     	<div class="container">
@@ -100,17 +117,17 @@
 			</div>
 		</div>
     	</div>
-   </section><!-- #hero -->
+   </section>
 
-	<footer>
+   <!--PÁGINA DE AVISO DE PRIVACIDAD-->
+
+   <footer>
 		<div class="footer">
 	    	<div class="container">
-	        	<p style="margin-bottom: 0px;">AutoEvalua® powered by Dynamic Network®<br><font style="color: #ff871d;">CNSF - Cédula:C288466 Oficio Autorización:06-367-11-1.2/04806</font></p>
+	        	<p style="margin-bottom: 0px;">AutoEvalua® powered by Dynamic Network®<br><font style="color: #ff871d;">CNSF - Oficio Autorización:06-367-11-1.2/04806</font></p>
 	      	</div>
 	    </div>
 	</footer>
-
-
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 

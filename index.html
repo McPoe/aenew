@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Index AutoEvalua</title>
+  <title>Index AutoEvalua®®</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -34,7 +34,7 @@
       <div class="col-lg-12">
         <div style="margin-top: 15%; text-align: left;">
           <img src="https://www.autoevalua.com/images/logoAutoEvalua.png" alt="" title="" style="width: 50vh; margin-bottom: 2em;" />
-          <h2 style="color: #FF981d;">Bienvenido a AutoEvalúa Seguros</h2>
+          <h2 style="color: #FF981d;">Bienvenido a AutoEvalua® Seguros</h2>
           <h3 style="color: #6f6f6e;">Queremos darte la mejor experiencia,<br>¿por qué estás con nosotros?</h3>
         </div>
         
@@ -50,38 +50,56 @@
             </button>
           </a>
           
-            <button class="btn-intro ">
-              <a class="login-trigger"  href="#" data-target="#login" data-toggle="modal">
-              <span  class="introbtn">Soy un agente<br>de seguros</span>
-            </a>
+            <button class="btn-intro"  data-toggle="modal" data-target="#loginfromindex">
+
+                <span  class="introbtn">Soy un agente<br>de seguros</span>
             </button>
         </div>
+
+        <!--+++++++ MODAL FORMULARIO 1 +++++-->
+
+<div class="modal fade" id="loginfromindex" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button data-dismiss="modal" class="close">×</button>
+          <h4>Ingresa a tu cuenta:</h4>
+          <form action="intro.html">
+            <input type="text" name="usuario" class="username form-control" placeholder="Usuario"/>
+            <input type="password" name="contraseña" class="password form-control" placeholder="Contraseña"/>
+            <input class="btn login" type="submit" value="Login">
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--+++++++ MODAL FORMULARIO 1 +++++-->
+
 
       </div>
     </div>
 
     </div>
 
-    <div id="login" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button data-dismiss="modal" class="close">&times;</button>
-            <h4>Ingresar</h4>
-            <form>
-              <input type="text" name="usuario" class="username form-control" placeholder="Usuario"/>
-              <input type="password" name="contraseña" class="password form-control" placeholder="Contraseña"/>
-              <input class="btn login" type="submit" value="Login" />
-            </form>
-          </div>
-        </div>
-      </div>  
-    </div>
 
-  </div>
 
-  <!--MODAL AGENTES-->
 
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/modal-video/js/modal-video.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
   
 
 </body>
