@@ -35,15 +35,15 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="index.html"><img src="https://www.autoevalua.com/images/logoAutoEvalua.png" alt="" title="" style="width: 23vh; margin-bottom: 1em;" /></a>
+        <a href="#body"><img src="https://www.autoevalua.com/images/logoAutoEvalua.png" alt="" title="" style="width: 23vh; margin-bottom: 1em;" /></a>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="bienvenido.html#bienvenido">Inicio</a></li>
-          <li><a href="bienvenido.html#sect-pasos">Pasos</a></li>
-          <li><a href="bienvenido.html#productos">Productos</a></li>
-          <li><a href="bienvenido.html#sect-aseguradoras">Aseguradoras</a></li>
+          <li class="menu-active"><a href="#bienvenido">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#sect-aseguradoras">Aseguradoras</a></li>
+          <li><a href="#sect-pasos">Pasos</a></li>
           <li class="menu-has-children"><a href="/" class="disable">Nosotros</a>
             <ul>
               <li><a href="acerca_dnis.html">Acerca de Dynamic Network®</a></li>
@@ -51,14 +51,13 @@
               <li><a href="privacidad.html">Aviso de Privacidad</a></li>
             </ul>
           </li>
-          <li><a href="siniestro.html" class="siniestro">En caso de Siniestro</a></li>
-          <li><a href="bienvenido.html#contact">Contacto</a></li>
+          <li><a href="siniestro.html">En caso de Siniestro</a></li>
+          <li><a href="#contact">Contacto</a></li>
           <li><div style="background-color: #FF871d; border-radius: 25px; padding: 0 10px;"><a class="login-trigger" href="#" data-target="#login-modal" data-toggle="modal" style="color: #FFF;">Agentes</a></div></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div><!--.container-->
   </header><!-- #header -->
-
 
 
 <!--MODAL AGENTES-->
@@ -68,11 +67,10 @@
       <div class="modal-content">
         <div class="modal-body">
           <button data-dismiss="modal" class="close">×</button>
-          <h4>Acceso Agente Autorizado:</h4>
+          <h4>Ingresa a tu cuenta:</h4>
           <form action="intro.html">
             <input type="text" name="usuario" class="username form-control" placeholder="Usuario"/>
             <input type="password" name="contraseña" class="password form-control" placeholder="Contraseña"/>
-            <a href="#" style="font-size: 12px; text-align: right; color: #231f20; letter-spacing: 1px;">Recuperar contraseña</a>
             <input class="btn login" type="submit" value="Login">
           </form>
         </div>
@@ -87,7 +85,14 @@
     <div class="bienvenido-container">
       <h1>AutoEvalua<sup style="font-size:25px;">®</sup> Seguros</h1>
       <h2>Somos una plataforma de seguros "multi", dinámica y versátil</h2>
-      <img src="img/intro2.png" alt="bienvenido Imgs" style="width: 100vh;">
+      <object data="IMG intro" type="svg+xml" style="width: 60%">
+        
+                
+
+
+      </object>
+
+
       <a href="#productos" class="btn-productos scrollto">Cotizar</a>
     </div>
   </section><!-- #bienvenido -->
@@ -98,7 +103,7 @@
     <div class="container">
       <div class="section-title text-center">
 
-        <h2>¡Obtén tu cotización en segundos<sup style="font-size: .5em;">*</sup>!</h2>
+        <h2>¡Obtén tu cotización en segundos<sup style="font-size: 12px;">*</sup>!</h2>
         <p class="separator"><hr></p>
       </div>
     </div>
@@ -136,7 +141,6 @@
           </div>
         </div>
 
-        <p><sup style="font-weight: bold;">*</sup>&nbsp;¡Obtén tu cotización de vehículo (auto, motocicleta o camioneta) en segundos!</p>
       </div>
      </div>
      <br>
@@ -480,8 +484,8 @@
           <p class="separator"><hr style="border-color: #ff871d; width: 50%;"></p>
         </div>
         <div class="row" style="padding-bottom: 3em;">
-          <div class="container-fluid" style="padding-left: 5em; padding-right: 5em;">
-            <p style="color: #757575; font-size: 1.2em;">Somos un Broker de Seguros Binacional con presencia y licencias de operación para intermediar seguros en México y Estados Unidos;<br class="hide-on-mobile"> especializado en la venta de seguros a través de agentes y brokers de seguros, promotores afiliados, canales digitales como redes sociales y marketplace,<br class="hide-on-mobile"> y canales masivos como: tiendas departamentales, sucursales bancarias, agencias automotrices, financieras y aseguradoras.</p>
+          <div class="container">
+            <p style="color: #757575; font-size: 1.2em;">Tenemos más de 20 años en la venta de seguros individuales; nuestra plataforma AutoEvalua® es utilizada por canales como Sucursales Bancarias, Tiendas Departamentales, Agentes de Seguros, Promotores y Clientes en México y los Estados Unidos.</p>
             <div class="row">
               <div class="col-4" style="text-align: center;">
                 <div class="masde">
@@ -542,7 +546,7 @@
           
             <div class="email">
               <i class="fa fa-clock-o" aria-hidden="true" style="margin-top: 5px;"></i>
-              <p>9:00 - 18:00 hrs.<br>Lunes a Viernes | Hora del Pacífico</p>
+              <p>10:00 am - 8:00 pm<br>Lunes a Domingo Hora Central</p>
             </div>
           </div>
         </div>
@@ -559,10 +563,10 @@
 
 
 
-    <footer>
+  <footer>
     <div class="footer">
       <div class="container">
-        <p style="margin-bottom: 0px;">AutoEvalua<sup>®</sup> Seguros powered by Dynamic Network<sup>®</sup><br><font style="color: #ff871d;">CNSF - Oficio Autorización:06-367-11-1.2/04806</font></p>
+        <p style="margin-bottom: 0px;">AutoEvalua® powered by Dynamic Network®<br><font style="color: #ff871d;">CNSF - Oficio Autorización:06-367-11-1.2/04806</font></p>
       </div>
     </div>
 
@@ -576,7 +580,7 @@
     <div class="modal-content">
       <div class="modal-body">
         <button data-dismiss="modal" class="close">×</button>
-        <h4 style="color: #231f20; font-size: 15px;">Uno de nuestros agentes se comunicará contigo en breve:</h4>
+        <h4 style="color: #231f20; font-size: 15px;">Uno de nuestros agentes se comunicará contigo en las siguientes 24 horas:</h4>
         <form action="#">
           <input type="text" name="usuario" class="username form-control" placeholder="Descripción del vehículo:"/>
           <input type="password" name="contraseña" class="password form-control" placeholder="Nombre:"/>

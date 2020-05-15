@@ -190,7 +190,7 @@ span {
 
 
 /*--------------------------------------------------------------
-# TREE Section
+# SECCIÓN #TREE
 --------------------------------------------------------------*/
 #tree {
   width: 100%;
@@ -1466,6 +1466,7 @@ div.degreed{
   color: #FFF;
   font-size: 1em;
   padding: 1em 4em;
+  border: 2px solid #ff871d;
 }
 
 #sect-pasos button:hover{
@@ -1569,9 +1570,6 @@ div.siniestro-steps li {
   background: #F9F9FC;
 }
 
-#list_insurance{
-  display: none;
-}
 
 #steps .table_btn a {
   background: #ff871d;
@@ -1586,6 +1584,11 @@ div.siniestro-steps li {
   border: 1px solid #FF871d;
   color: #FF871d;
 }
+
+a.siniestro:hover{
+  color: #fb3333 !important;
+}
+
 
 /* Nuestras Fortalezas
 rgba(238, 248, 236, .2);
@@ -1962,9 +1965,9 @@ img.imgdnis {
 .btn-intro{
   display: inline-block;
   background-color: #FDFDFD; 
-  width: 17em; 
-  height: 17em; 
-  border-radius: 50%; 
+  width: 15em; 
+  height: 6em; 
+  border-radius: 20px; 
   border: solid 1px #ff871d; 
   box-shadow: #ff871d 0px 0px 10px;
   margin-right: 20px;
@@ -1973,7 +1976,7 @@ img.imgdnis {
 .introbtn{
    font-family: "Poppins", sans-serif;
   color: #757575;
-  font-size: 1.1em;
+  font-size: .9em;
   text-align: center !important;
 }
 

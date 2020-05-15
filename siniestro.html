@@ -35,15 +35,15 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="bienvenido.html"><img src="https://www.autoevalua.com/images/logoAutoEvalua.png" alt="" title="" style="width: 23vh; margin-bottom: 1em;" /></a>
+        <a href="index.html"><img src="https://www.autoevalua.com/images/logoAutoEvalua.png" alt="" title="" style="width: 23vh; margin-bottom: 1em;" /></a>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#bienvenido">Inicio</a></li>
+          <li class="menu-active"><a href="bienvenido.html#bienvenido">Inicio</a></li>
+          <li><a href="bienvenido.html#sect-pasos">Pasos</a></li>
           <li><a href="bienvenido.html#productos">Productos</a></li>
           <li><a href="bienvenido.html#sect-aseguradoras">Aseguradoras</a></li>
-          <li><a href="bienvenido.html#sect-pasos">Pasos</a></li>
           <li class="menu-has-children"><a href="/" class="disable">Nosotros</a>
             <ul>
               <li><a href="acerca_dnis.html">Acerca de Dynamic Network®</a></li>
@@ -51,7 +51,7 @@
               <li><a href="privacidad.html">Aviso de Privacidad</a></li>
             </ul>
           </li>
-          <li><a href="siniestro.html">En caso de Siniestro</a></li>
+          <li><a href="siniestro.html" class="siniestro">En caso de Siniestro</a></li>
           <li><a href="bienvenido.html#contact">Contacto</a></li>
           <li><div style="background-color: #FF871d; border-radius: 25px; padding: 0 10px;"><a class="login-trigger" href="#" data-target="#login-modal" data-toggle="modal" style="color: #FFF;">Agentes</a></div></li>
         </ul>
@@ -116,7 +116,7 @@
                     <div class="row justify-content-center">
                       <div class="col-md-4 col-lg-4">
                         <div id="list_insurance">
-                          <h3 style="font-size: 1.2em; margin-bottom: 20px;">Localiza tu aseguradora:</h3>
+                          <h3 style="font-size: 1.2em; margin-bottom: 20px; color: #707070;">Localiza tu aseguradora:</h3>
 
                           <div class="info">
                             
@@ -179,17 +179,7 @@
                           </div>
                         </div>
 
-                        <a onclick="aseguradoras();byeboton();cerrarboton()">
-                          <div>
-                            <img src="img/keepcalm.png" style="width: 160px; margin-top: 20px;">
-                            <div id="btn_llama" class="table_btn">
-                              <a onclick="aseguradoras();byeboton();cerrarboton()" class="btn">Buscar aseguradora</a>
-                            </div>
-                            <div id="btn_close" class="table_btn btnclose_dnis">
-                              <a onclick="aseguradoras();byeboton();cerrarboton()" class="btn">Cerrar aseguradoras</a>
-                            </div>
-                          </div>
-                        </a>
+                
                         
 
 
@@ -201,7 +191,7 @@
                               <p style="font-size: 1.3em; font-weight: 400;">Mantener la calma.</p>
                             </li>
                             <li>
-                              <p style="text-align: left;">Llamar al <a onclick="aseguradoras();byeboton()" style="font-weight: bold; text-decoration: underline; color: #ff871d; cursor: pointer;">800 que se encuentra en la carátula de la póliza de su vehículo</a>, le solicitarán los siguientes datos:</p>
+                              <p style="text-align: left;">Llamar al <font style="font-weight: bold; color: #ff871d;">800 que se encuentra en la carátula de la póliza de su vehículo</font>, le solicitarán los siguientes datos:</p>
                               <ul class="list-unstyled" style="padding-bottom: 20px;">
                                 <li><i class="fa fa-angle-right"></i>Número de póliza.</li>
                                 <li><i class="fa fa-angle-right"></i>Nombre del Asegurado o Conductor.</li>
@@ -269,47 +259,19 @@
    </section><!-- #bienvenido -->
 
 	<footer>
-		<div class="footer">
-	    	<div class="container">
-	        	<p style="margin-bottom: 0px;">AutoEvalua® powered by Dynamic Network®<br><font style="color: #ff871d;">CNSF - Cédula:C288466 Oficio Autorización:06-367-11-1.2/04806</font></p>
-	      	</div>
-	    </div>
-	</footer>
+    <div class="footer">
+      <div class="container">
+        <p style="margin-bottom: 0px;">AutoEvalua<sup>®</sup> Seguros powered by Dynamic Network<sup>®</sup><br><font style="color: #ff871d;">CNSF - Oficio Autorización:06-367-11-1.2/04806</font></p>
+      </div>
+    </div>
+
+  </footer>
 
 
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
 
-<!--+++++++MODAL+++++-->
-<script type="text/javascript">
-  function aseguradoras() {
-    var x = document.getElementById("list_insurance");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-
-  function byeboton() {
-    var x = document.getElementById("btn_llama");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-
-  function cerrarboton() {
-    var x = document.getElementById("btn_close");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-</script>
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
