@@ -60,21 +60,38 @@
 
         <!--+++++++ MODAL FORMULARIO 1 +++++-->
 
-<div class="modal fade" id="loginfromindex" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <button data-dismiss="modal" class="close">×</button>
-          <h4>Ingresa a tu cuenta:</h4>
+<!--MODAL AGENTES-->
+
+  <div id="login-modal" class="modal fade show" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button data-dismiss="modal" class="close">×</button>
+          <h4>Acceso Agente Autorizado:</h4>
           <form action="intro.html">
             <input type="text" name="usuario" class="username form-control" placeholder="Usuario"/>
             <input type="password" name="contraseña" class="password form-control" placeholder="Contraseña"/>
-            <input class="btn login" type="submit" value="Login">
+            <a href="#" style="font-size: 12px; text-align: right; color: #231f20; letter-spacing: 1px;">Recuperar contraseña</a>
+            <br>
+            <div class="center" style="text-align: center;">
+              <input class="btn login" type="submit" value="Accesar">
+              <br>
+              <br>
+              <button type="button" class="navbar-toggler">
+                  <a href="tel:5563633790"><img src="img/svg/icon_phone.svg" alt="" style="height: 42px;"></a>
+              </button>
+              <button type="button" class="navbar-toggler" onclick="openChat();">
+                  <img src="img/svg/icon_chat.svg" alt="" style="height: 42px;">
+              </button>
+              <p class="m-0" style="color: #848484;">Horario de soporte (tiempo del centro):</p>
+              <p class="m-0" style="color: #848484;">Lunes a Viernes 10:00 am a 7:00 pm</p>
+              <p class="m-0" style="color: #848484;">Sábados y Domingos 12:00 pm a 4:00 pm</p>
+            </div>
           </form>
+        </div>
       </div>
-    </div>
+    </div>  
   </div>
-</div>
 <!--+++++++ MODAL FORMULARIO 1 +++++-->
 
 
