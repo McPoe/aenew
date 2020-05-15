@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Index AutoEvalua®</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Poppins:100,200,300,400,500,600" rel="stylesheet">
+
+  <!-- Bootstrap css -->
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/modal-video/css/modal-video.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="header" class="header header-hide">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <a href="index.html"><img src="https://www.autoevalua.com/images/logoAutoEvalua.png" alt="" title="" style="width: 23vh; margin-bottom: 1em;" /></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="bienvenido.html#bienvenido">Inicio</a></li>
+          <li><a href="bienvenido.html#sect-pasos">Pasos</a></li>
+          <li><a href="bienvenido.html#productos">Productos</a></li>
+          <li><a href="bienvenido.html#sect-aseguradoras">Aseguradoras</a></li>
+          <li class="menu-has-children"><a href="/" class="disable">Nosotros</a>
+            <ul>
+              <li><a href="acerca_dnis.html">Acerca de Dynamic Network®</a></li>
+              <li><a href="acerca_ae.html">Acerca de AutoEvalua® Agentes</a></li>
+              <li><a href="privacidad.html">Aviso de Privacidad</a></li>
+            </ul>
+          </li>
+          <li><a href="siniestro.html" class="siniestro">En caso de Siniestro</a></li>
+          <li><a href="bienvenido.html#contact">Contacto</a></li>
+          <li><div style="background-color: #FF871d; border-radius: 25px; padding: 0 10px;"><a class="login-trigger" href="#" data-target="#login-modal" data-toggle="modal" style="color: #FFF;">Agentes</a></div></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div><!--.container-->
+  </header><!-- #header -->
+
+
+
+<!--MODAL AGENTES-->
+
+  <div id="login-modal" class="modal fade show" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button data-dismiss="modal" class="close">×</button>
+          <h4>Acceso Agente Autorizado:</h4>
+          <form action="intro.html">
+            <input type="text" name="usuario" class="username form-control" placeholder="Usuario"/>
+            <input type="password" name="contraseña" class="password form-control" placeholder="Contraseña"/>
+            <a href="#" style="font-size: 12px; text-align: right; color: #231f20; letter-spacing: 1px;">Recuperar contraseña</a>
+            <br>
+            <div class="center" style="text-align: center;">
+              <input class="btn login" type="submit" value="Accesar">
+              <br>
+              <br>
+              <button type="button" class="navbar-toggler">
+                  <a href="tel:5563633790"><img src="img/svg/icon_phone.svg" alt="" style="height: 42px;"></a>
+              </button>
+              <button type="button" class="navbar-toggler" onclick="openChat();">
+                  <img src="img/svg/icon_chat.svg" alt="" style="height: 42px;">
+              </button>
+              <p class="m-0" style="color: #848484;">Horario de soporte (tiempo del centro):</p>
+              <p class="m-0" style="color: #848484;">Lunes a Viernes 10:00 am a 7:00 pm</p>
+              <p class="m-0" style="color: #848484;">Sábados y Domingos 12:00 pm a 4:00 pm</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+<!--==========================
+    SECCIÓN DE INICIO: BIENVENIDOS 
+  ============================-->
+  <section id="bienvenido" class="wow fadeIn">
+    <div class="bienvenido-container">
+      <h1>AutoEvalua<sup style="font-size:25px;">®</sup> Seguros</h1>
+      <h2>Somos una plataforma de seguros "multi", dinámica y versátil</h2>
+      <img src="img/intro2.png" alt="bienvenido Imgs" style="width: 100vh;">
+      <a href="#productos" class="btn-productos scrollto">Cotizar</a>
+    </div>
+  </section><!-- #bienvenido -->
+
+<!-- SECCIÓN TR3S PASOS -->
+  <section id="sect-pasos" class="padd-section wow fadeInUp">
+
+    <div class="container">
+      <div class="section-title text-center">
+
+        <h2>¡Obtén tu cotización en segundos<sup style="font-size: .5em;">*</sup>!</h2>
+        <p class="separator"><hr></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="block-sect-pasos text-left">
+            <img src="img/step1.png" class="img-responsive" alt="img">
+            <div class="content-sect-pasos">
+              <span class="steps">1.&nbsp;</span>
+              <span>Selecciona el tipo de seguro que requieres para proteger tu patrimonio.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="block-sect-pasos text-left">
+            <img src="img/step2.png" class="img-responsive" alt="img">
+            <div class="content-sect-pasos">
+              <span class="steps">2.&nbsp;</span>
+              <span>Elige coberturas, límites y arma tu paquete.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="block-sect-pasos text-left">
+            <img src="img/step3.png" class="img-responsive" alt="img">
+            <div class="content-sect-pasos">
+              <span class="steps">3.&nbsp;</span>
+              <span>Selecciona tu forma de pago y obtén tu póliza.</span>
+            </div>
+          </div>
+        </div>
+
+        <p><sup style="font-weight: bold;">*</sup>&nbsp;¡Obtén tu cotización de vehículo (auto, motocicleta o camioneta) en segundos!</p>
+      </div>
+     </div>
+     <br>
+     <div class="container" style="margin-bottom: 5em;"> 
+      <div class="row">
+        <div class="col-12" style="text-align: center;">
+          <button class="btn">Cotizar Ahora</button>
+        </div>
+      </div>
+    </div>
+  </section><!--#sect-pasos-->
+
+
+  
+
+
+  <!--==========================
+    SECCIÓN PRODUCTOS
+  ============================-->
+  <section id="productos" class="padd-section text-center wow fadeInUp" style="padding-bottom: 50px;">
+
+    <div class="container">
+      <div class="section-title text-center">
+
+        <h2>Multi Productos</h2>
+        <p class="separator"><hr></p>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <div class="col-4 col-lg-2">
+          <div class="hoverimg">
+            <a href="" data-toggle="modal" data-target="#modalCotizOnline">
+              <img src="img/icons/empresa.png" alt="img" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-4 col-lg-2">
+          <div class="hoverimg">
+            <a href="" data-toggle="modal" data-target="#modalCotizOnline">
+              <img src="img/icons/gmm.png" alt="img" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-4 col-lg-2">
+          <div class="hoverimg">
+            <a href="" data-toggle="modal" data-target="#modalCotizOnline">
+              <img src="img/icons/hogar.png" alt="img" class="img-fluid">
+            </a>
+
+          </div>
+        </div>
+
+        <div class="col-4 col-lg-2">
+          <div class="hoverimg">
+            <a onclick="openveh()">
+              <img src="img/icons/vehic.png" alt="img" class="img-fluid">
+              <h6 style="text-transform: uppercase; font-size: 12px; color: #FF871d;">Ver más (+)</h6>  
+            </a>
+          </div>
+        </div>
+
+        <div class="col-4 col-lg-2">
+          <div class="hoverimg">
+            <a href="" data-toggle="modal" data-target="#modalCotizOnline">
+              <img src="img/icons/vida.png" alt="img" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+<!--+++++++ SECCIÓN DE ÍCONOS QUE APARECE +++++-->
+<script type="text/javascript">
+  function openveh() {
+    var x = document.getElementById("team");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+
+   <!--==========================
+    LOS ÍCONOS QUE APARECEN
+  ============================-->
+  <section id="team" class="padd-section text-center">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+          <div class="team-block bottom">
+            <a href="https://ventas.autoevalua.com/ControlaIngreso">
+            <img src="img/svg/bina.png" class="img-responsive" alt="img">
+            <div class="team-content">
+              <button class="btn" style="background-color: #ff871d">Cotizar en línea</button>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+          <div class="team-block bottom">
+            <a href="https://ventas.autoevalua.com/ControlaIngreso">
+            <img src="img/svg/oblig.png" class="img-responsive" alt="img">
+            <div class="team-content">
+              <button class="btn" style="background-color: #ff871d">Cotizar en línea</button>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+          <div class="team-block bottom">
+            <a href="https://ventas.autoevalua.com/ControlaIngreso">
+            <img src="img/svg/choco.png" class="img-responsive" alt="img">
+            <div class="team-content">
+              <button class="btn" style="background-color: #ff871d">Cotizar en línea</button>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+          <div class="team-block bottom">
+            <a href="https://ventas.autoevalua.com/ControlaIngreso">
+            <img src="img/svg/resid.png" class="img-responsive" alt="img">
+            <div class="team-content">
+              <button class="btn" style="background-color: #ff871d">Cotizar en línea</button>
+            </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+          <div class="team-block bottom">
+            <a href="" data-toggle="modal" data-target="#modalCotizOnline">
+            <img src="img/svg/campart.png" class="img-responsive" alt="img">
+            <div class="team-content">
+              <button class="btn" style="background-color: #ff871d">Solicitar Cotización</button>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+          <div class="team-block bottom">
+            <a href="" data-toggle="modal" data-target="#modalCotizOnline">
+            <img src="img/svg/motopart.png" class="img-responsive" alt="img">
+            <div class="team-content">
+              <button class="btn" style="background-color: #ff871d">Solicitar Cotización</button>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+          <div class="team-block bottom">
+            <a href="" data-toggle="modal" data-target="#modalCotizOnline">
+            <img src="img/svg/taxi.png" class="img-responsive" alt="img">
+            <div class="team-content">
+              <button class="btn" style="background-color: #ff871d">Solicitar Cotización</button>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+          <div class="team-block bottom">
+            <a href="" data-toggle="modal" data-target="#modalCotizOnline">
+            <img src="img/svg/tractos.png" class="img-responsive" alt="img">
+            <div class="team-content">
+              <button class="btn" style="background-color: #ff871d">Solicitar Cotización</button>
+            </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="row justify-content-center">
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+          <div class="team-block bottom">
+            <a href="https://ventas.autoevalua.com/ControlaIngreso">
+            <img src="img/svg/legal.png" class="img-responsive" alt="img">
+            <div class="team-content">
+              <button class="btn" style="background-color: #ff871d">Cotizar en línea</button>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+          <div class="team-block bottom">
+            <a href="https://ventas.autoevalua.com/ControlaIngreso">
+            <img src="img/svg/turista.png" class="img-responsive" alt="img">
+            <div class="team-content">
+              <button class="btn" style="background-color: #ff871d">Cotizar en línea</button>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+          <div class="team-block bottom">
+            <a href="https://ventas.autoevalua.com/ControlaIngreso">
+            <img src="img/svg/uber.png" class="img-responsive" alt="img">
+            <div class="team-content">
+              <button class="btn" style="background-color: #ff871d">Solicitar Cotización</button>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+<!--+++++++ SECCIÓN DE ÍCONOS QUE APARECE +++++-->
+
+
+<!--+++++++ MODAL FORMULARIO 2 +++++-->
+<!--+++++++ MODAL FORMULARIO 2 +++++-->
+
+
+
+
+ 
+
+
+<!--==========================
+    MULTIPAGOS -->
+
+  <section id="about-us" class="about-us padd-section wow fadeInUp" style="border-top: solid 2px #d6c37e1a; padding-top: 50px;">
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <div class="col-sm-5 col-md-5 col-lg-3">
+          <img src="img/paymentil.png" alt="payment" class="paymentil">
+        </div>
+
+        <div class="col-sm-7 col-md-7 col-lg-5">
+          <div class="about-content">
+            <h2>Multi Plazos y<br>Formas de Pagos</h2>
+            <p>Elige el pago de tu póliza en cómodas mensualidades, además, puedes realizar tu pago por medio de tarjeta de crédito o débito, Oxxo o con uno de nuestros diferentes opciones.</p>
+            <ul class="list-unstyled">
+              <li><img src="img/payment.png" style="width: 400px;"></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<section id="sect-aseguradoras" class="padd-section text-center wow fadeInUp" style="padding-top: 80px; padding-bottom: 80px;">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Multi-Aseguradoras</h2>
+        <p class="separator"><hr></p>
+      </div>
+    </div>
+    <div class="ally">
+      <div class="slider">
+        <div class="slide-track" style="text-align: center;">
+          <div class="slide">
+            <img src="img/logos/aig.png" height="100" alt="icons_aseguradoras"/>
+          </div>
+          <div class="slide">
+            <img src="img/logos/ana.png" height="100" alt="icons_aseguradoras"/>
+          </div>
+          <div class="slide">
+            <img src="img/logos/banorte.png" height="100" alt="icons_aseguradoras"/>
+          </div>
+          <div class="slide">
+            <img src="img/logos/chubb.png" height="100" alt="icons_aseguradoras"/>
+          </div>
+          <div class="slide">
+            <img src="img/logos/hdi.png" height="100" alt="icons_aseguradoras"/>
+          </div>
+          <div class="slide">
+            <img src="img/logos/gnp.png" height="100" alt="icons_aseguradoras"/>
+          </div>
+          <div class="slide">
+            <img src="img/logos/qualitas.png" height="100" alt="icons_aseguradoras"/>
+          </div>
+          <div class="slide">
+            <img src="img/logos/zurich.png" height="100" alt="icons_aseguradoras"/>
+          </div>
+          <div class="slide">
+            <img src="img/logos/aig.png" height="100" alt="icons_aseguradoras"/>
+          </div>
+          <div class="slide">
+            <img src="img/logos/ana.png" height="100" alt="icons_aseguradoras"/>
+          </div>
+          <div class="slide">
+            <img src="img/logos/banorte.png" height="100" alt="icons_aseguradoras"/>
+          </div>
+          <div class="slide">
+            <img src="img/logos/chubb.png" height="100" alt="icons_aseguradoras"/>
+          </div>
+          <div class="slide">
+            <img src="img/logos/hdi.png" height="100" alt="icons_aseguradoras"/>
+          </div>
+          <div class="slide">
+            <img src="img/logos/gnp.png" height="100" alt="icons_aseguradoras"/>
+          </div>
+          <div class="slide">
+            <img src="img/logos/qualitas.png" height="100" alt="icons_aseguradoras"/>
+          </div>
+          <div class="slide">
+            <img src="img/logos/zurich.png" height="100" alt="icons_aseguradoras"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Sobre Nosotros
+  ============================-->
+
+  <section id="video" class="text-center wow fadeInUp">
+    <div class="overlay" style="padding-top: 5em; padding-bottom: 1em;">
+      <div class="container-fluid container-full">
+        <div class="section-title text-center">
+          <h2>Nuestra Fortaleza</h2>
+          <p class="separator"><hr style="border-color: #ff871d; width: 50%;"></p>
+        </div>
+        <div class="row" style="padding-bottom: 3em;">
+          <div class="container-fluid" style="padding-left: 5em; padding-right: 5em;">
+            <p style="color: #757575; font-size: 1.2em;">Somos un Broker de Seguros Binacional con presencia y licencias de operación para intermediar seguros en México y Estados Unidos;<br class="hide-on-mobile"> especializado en la venta de seguros a través de agentes y brokers de seguros, promotores afiliados, canales digitales como redes sociales y marketplace,<br class="hide-on-mobile"> y canales masivos como: tiendas departamentales, sucursales bancarias, agencias automotrices, financieras y aseguradoras.</p>
+            <div class="row">
+              <div class="col-4" style="text-align: center;">
+                <div class="masde">
+                  <h3>+20</h3>
+                  <p>años</p>
+                </div>
+                
+              </div>
+              <div class="col-4" style="text-align: center;">
+                <div class="masde">
+                  <h3>+20k</h3>
+                  <p>agentes</p>
+                </div>
+                
+              </div>
+              <div class="col-4" style="text-align: center;">
+                <div class="masde">
+                  <h3>+950k</h3>
+                  <p>pólizas</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="contact" class="padd-section wow fadeInUp">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Contacto</h2>
+        <p class="separator"><hr></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <div class="col-lg-4 col-md-4">
+          <div class="info">
+            <div>
+              <a href="">
+                <i class="fa fa-comments-o bigicon" aria-hidden="true"></i>
+                <p>Chatea con nuestro<br>equipo de soporte</p>
+              </a>
+            </div>
+
+            <div>
+              <a href="">
+                <i class="fa fa-phone" style="margin-top: 5px;"></i>
+                <p>800 <span style="letter-spacing: 3px; color: #ff871d;">AEVALUA</span><br>800 <span style="letter-spacing: 3px; color: #ff871d;">2382582</span></p>
+              </a>
+            </div>
+          
+            <div class="email">
+              <i class="fa fa-clock-o" aria-hidden="true" style="margin-top: 5px;"></i>
+              <p>9:00 - 18:00 hrs.<br>Lunes a Viernes | Hora del Pacífico</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-8">
+          <div class="form">
+            <img src="img/contact2.png" class="contactimg">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+    <footer>
+    <div class="footer">
+      <div class="container">
+        <p style="margin-bottom: 0px;">AutoEvalua<sup>®</sup> Seguros powered by Dynamic Network<sup>®</sup><br><font style="color: #ff871d;">CNSF - Oficio Autorización:06-367-11-1.2/04806</font></p>
+      </div>
+    </div>
+
+  </footer>
+
+
+<!--+++++++ MODAL FORMULARIO 1 +++++-->
+
+<div class="modal fade" id="modalCotizOnline" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button data-dismiss="modal" class="close">×</button>
+        <h4 style="color: #231f20; font-size: 15px;">Uno de nuestros agentes se comunicará contigo en breve:</h4>
+        <form action="#">
+          <input type="text" name="usuario" class="username form-control" placeholder="Descripción del vehículo:"/>
+          <input type="password" name="contraseña" class="password form-control" placeholder="Nombre:"/>
+          <input type="password" name="contraseña" class="password form-control" placeholder="Apellido Paterno:"/>
+          <input type="password" name="contraseña" class="password form-control" placeholder="Apellido Materno:"/>
+          <div class="form-group">
+            <label for="tel-input" style="float: left;">Teléfono:&nbsp;&nbsp;</label>
+            <input class="password form-control" type="tel" placeholder="(555)-555-5555" id="tel-input" style="width: 75%;"> 
+          </div>
+
+          <div class="form-group">
+            <label for="email-input" style="float: left;">Correo Electrónico:&nbsp;&nbsp;</label>
+            <input class="password form-control" type="email" placeholder="correo@email.com" id="email-input" style="width: 60%;"> 
+          </div>
+
+          <input class="btn login" type="submit" value="Enviar">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--+++++++ MODAL FORMULARIO 1 +++++-->
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/modal-video/js/modal-video.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
