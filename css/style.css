@@ -1807,6 +1807,19 @@ rgba(238, 248, 236, .2);
   line-height: 20px;
 }
 
+
+.footer2 {
+  background: #FAFAFA;
+  padding: 10px 0px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer2 p{
+  line-height: 20px;
+}
+
 a.disable{
   pointer-events: none;
 }
@@ -2204,9 +2217,52 @@ h4 {
 }
 
 
+/*BOTONES DEL INTRO DE AUTOEVALUA AGENTES://*/
 
 
 
+img.iconsAE1{
+    max-width: 180px;
+}
+
+.iconsAE1:hover{
+    -webkit-filter: drop-shadow(5px 20px 10px #FF871D20)
+        drop-shadow(-5px -10px 10px #FF871D20);
+    filter: drop-shadow(5px 10px 10px #FF871D20)
+        drop-shadow(-5px -10px 10px #FF871D20);
+}
+
+
+
+
+img.iconsAE2{
+    max-width: 150px;
+}
+
+.iconsAE2:hover{
+    -webkit-filter: drop-shadow(5px 20px 10px #FF871D20)
+        drop-shadow(-5px -10px 10px #FF871D20);
+    filter: drop-shadow(5px 10px 10px #FF871D20)
+        drop-shadow(-5px -10px 10px #FF871D20);
+}
+
+
+img.iconsAE3{
+    max-width: 120px;
+}
+
+.iconsAE3:hover{
+    -webkit-filter: drop-shadow(5px 20px 10px #FF871D20)
+        drop-shadow(-5px -10px 10px #FF871D20);
+    filter: drop-shadow(5px 10px 10px #FF871D20)
+        drop-shadow(-5px -10px 10px #FF871D20);
+}
+
+
+.line-icons{
+  padding-left: 20px;
+  padding-top: 20px;
+}
 
 
 
