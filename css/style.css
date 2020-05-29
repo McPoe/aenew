@@ -2157,7 +2157,7 @@ img.icons{
 
 @media (max-width: 575px) {
     .logoCASseguros{
-        width: 20vh !important;
+        width: 23vh !important;
     }
     .logoAE{
         width: 15vh !important;
@@ -2269,10 +2269,10 @@ img.iconsAE2{
 
 @media (max-width: 768px) {
   img.iconsAE1{
-    max-width: 120px;
+    max-width: 100px;
   }
   img.iconsAE2{
-    max-width: 120px;
+    max-width: 100px;
   }
 }
 
