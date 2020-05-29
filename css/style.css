@@ -1221,6 +1221,10 @@ div.degreed{
 }
 
 @media (max-width: 773px) {
+  #team .team-block {
+  width: 90%;
+}
+
   #team .team-block img{
     width: 50%;
   }
@@ -1646,6 +1650,23 @@ rgba(238, 248, 236, .2);
     margin-bottom: 30px;
     width: 100%;
   }
+
+  .masde{
+    width: 5em;
+    height: 5em;
+    padding: 5px;
+    margin: 0 auto;
+  }
+
+  .masde h3{
+    padding-top: 1em;
+    padding-right: .1em;
+    font-size: 1em;
+  }
+
+  .masde p{
+    font-size: .8em;
+  }
 }
 
 #newsletter .form-control:focus {
@@ -2033,7 +2054,6 @@ img.imgdnis {
 .bluecint{
     background-color: #ff871d;
     width: 50%;
-    margin-top: -1em;
 }
 
 .bluecint > p{
@@ -2247,30 +2267,43 @@ img.iconsAE2{
 }
 
 
-img.iconsAE3{
+@media (max-width: 768px) {
+  img.iconsAE1{
     max-width: 120px;
+  }
+  img.iconsAE2{
+    max-width: 120px;
+  }
 }
-
-.iconsAE3:hover{
-    -webkit-filter: drop-shadow(5px 20px 10px #FF871D20)
-        drop-shadow(-5px -10px 10px #FF871D20);
-    filter: drop-shadow(5px 10px 10px #FF871D20)
-        drop-shadow(-5px -10px 10px #FF871D20);
-}
-
 
 .line-icons{
   padding-left: 20px;
-  padding-top: 20px;
+}
+
+@media (max-width: 991px) {
+  .line-icons{
+    padding-left: 0px;
+    padding-top: 20px;
+  }
 }
 
 
+.products-icons{
+  width: 100% !important;
+}
 
 
+@media (max-width: 991px) {
+  .products-icons{
+    width: 50% !important;
+  }
+}
 
-
-
-
+@media (max-width: 768px) {
+  .products-icons{
+    width: 100% !important;
+  }
+}
 
 
 
